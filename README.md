@@ -40,7 +40,7 @@ Also, line 33 of the `HOWTO` is set by default so that each new book created con
 MDG Book kits similar to this may be found on related GitHub sites such as:
 
 - [mdgBookSVGKit](https://github.com/justineuro/mdgBookSVGKit) - MDG based on [*Musikalisches W&uuml;rferspiel, K. 516f*](http://imslp.org/wiki/Musikalische\s_W\%C3\%BCrfelspiel,\_K.516f\_%28Mozart,\_Wolfgang\_Amadeus\%29), attributed to Wolfgang Amadeus Mozart
-- [mdgBookSVG4Kit](https://github.com/justineuro/mdgBookSVG4Kit) - MDG based on [*Table pour composer des Minuets et des Trios &agrave; la infinie*]({http://imslp.org/wiki/Table_pour_composer_des_Minuets_et_des_Trios_%C3%A0_la_infinie_(Stadler,_Maximilian)), similar to the MDG in this site but arranged for a haprsichord or pianoforte (clavier, clavichord).
+- [mdgBookSVG4Kit](https://github.com/justineuro/mdgBookSVG4Kit) - MDG based on [*Table pour composer des Minuets et des Trios &agrave; la infinie*](http://imslp.org/wiki/Table_pour_composer_des_Minuets_et_des_Trios_%C3%A0_la_infinie_(Stadler,_Maximilian)), similar to the MDG in this site but arranged for a haprsichord or pianoforte (clavier, clavichord).
 
 ## Related Sites
 - [Opus Infinity](https://opus-infinity.org/) - Collaborative work of Robbert Harms, Hein Moors, and Suus van Petegem whose goal is to unravel the mystery behind the tables used for generating MDGs.  Site visitors can generate MDGs based on works of Kirnberger, Mozart, Stadler/Haydn, Bach, and Gerlach.  Corresponding audio files (<tt>mid</tt>, <tt>ogg</tt>, and/or <tt>mp3</tt>) and image files (<tt>pdf</tt> or <tt>png</tt>) are also made available for listening, viewing, or downloading.
