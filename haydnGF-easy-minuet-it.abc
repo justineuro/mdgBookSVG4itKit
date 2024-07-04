@@ -1,0 +1,106 @@
+%%scale 0.60
+%%pagewidth	8.5in
+%%barsperstaff	8 % number of measures per staff
+%%measurebox	false % measure numbers in a box
+%%measurenb	1
+%
+%%beginsvg
+<defs>
+% triangle
+<path id="newdot" class="fill"
+  d="m -2 2 l 2 5 l 2 -5 l -4 0" />
+</defs>
+%%endsvg
+
+% name  type    fnctn   height  wl      wr      string
+%%deco  tu      0       newdot  5       0       0
+
+X:1
+T:
+%%setfont-1 Courier-Bold 12
+T:Gioco Filarmonico (Minuets)
+T:$1[from http://imslp.org/wiki/Table_pour\_composer\_des\_Minuets\_et\_des\_Trios\_\%C3\%A0\_la\_infinie\_(Stadler,_Maximilian)]$0
+C:attributed to Joseph Haydn
+S:
+M:3/4
+L:1/8
+Q:1/4=90
+%%staves [1 2 3]
+V:1 clef=treble
+V:2 clef=treble
+V:3 clef=bass
+K:D
+%
+%%MIDI program 1 73
+%%MIDI program 2 40
+%%MIDI program 3 32
+%
+[V:1]
+afegce | z !wedge!E(^GA)(ce) | d2d2d2 | e3/B/A3/B/ G2 | A6 | gdbg a2 | (_BA) A3a | d6 | 
+aAgGf2 | G2 ge {g/}fe/d/ | fe/d/ c2!trill!B2 | {B}b2b/a/g/f/ e/d/c/B/ | a3gf2 | d6 | A/B/c/B/ A a2 c | B4 b/a/g/f/ | 
+(^d/e3/) (a/c3/)(d/A3/) | (a/f/)(c/d/) A2 z2 | (ce)z !wedge!e (d/c/B/A/) | (ef)(=ga)b2 | BfedcB | !trill!g3/f/4g/4 ef f2 | B/b/a/g/ f2!trill!e2 | A6 | 
+A2 a/=g/f/e/ ^d2 | g3/b/ e3/g/ c3/e/ | Bbgfed | fd^ABcd | (de) (fg)a2 | A6 | c4d2 | f3/g/ e3/f/ d2 | 
+A6 | ad c/d/e/c/ d2 | a3/=c'/ f3/a/ ^d3/f/ | f/a/f/d/ c2 !trill!B2 | e3/a/ c3/e/ A3/a/ | afgefd | z!wedge!b z !wedge!^d z !wedge!e | d4 b/a/^g/a/ | 
+!wedge!c2!wedge!e2!wedge!a2 | B3/d/ c3/e/ d3/f/ | B/d/c/B/ ce d2 | A3/d/ f2!trill!e2 | c/e/d/c/ {e/}dc/B/ c2 | cdef^ga | c/d/B/^G/ Ed c2 | G2g2e2 | 
+A2c'2d'2 | cd e/d/e/f/ d2 | B3/d/ g3/d/ b2 | b/f/g/e/ d2!trill!c2 | (dc) !wedge!e!wedge!cd2 | DA Fd Af | zcdefe | d2 e/d/e/g/ f2 | 
+G2 g/f/e/d/ c2 | (a2a/)g/f/g/ f2 | Aa!trill!ag!trill!gf | A3/c/e3/g/f2 | A2G2F2 | (3ea^g (3fed (3cdB | c2e/d/B/^G/A2 | A4 a/=g/f/e/ | 
+B/c/^d/c/ Bb2^d | (^df) z!wedge!f (e/d/)(!wedge!c/!wedge!B/) | (B/c3/) !trill!d4 | (E2E/)F/^G/A/ B/c/d/e/ | a4 g/f/e/d/ | b4f2 | bBaB =g2 | Bbagfe | 
+G2 Bdgb |  dcac d2 | | f3/a/ d3/f/ A3/f/ | z b z g z e | eB A=G FE | d6 | d6 | (d2 (3d)fe (3dcB | 
+A6 | z!wedge!a z!wedge!c z!wedge!d | d6 | a3/b/ g3/a/ f2 | (d2c/)B/c/d/e2 | d3/f/2 B3/d/ c2 | a2 a/g/f/e/ f2 | be ^d/e/f/d/ e2 | 
+z !wedge!^d(eg)(ce) | A2a2f2 | A6 | d3/f/ e3/g/ f2 | d6 | A6 | d2 e/f/g/2e/ f2 | a3/d'/ f3/a/ d3/f/ | 
+z/E/F/^G/ A/B/c/d/ e/f/g/a/ | d2(c/d3/)(c/d3/) | f2 {e}d2 {c}B2 | A6 | (3bfg (3bfg (3bge | a4 gf | ce^GB A2 | d'2 d'/c'/b/a/ g/f/e/d/ | 
+(3^gab d2d2 | a/f/e/d/ c2!trill!B2 | A6 | a4c2 | (3Bgb (3agf (3edc | (3Ace g2 f3/d/ | d6 | d3/g/ !trill!g3/f/4g/4 b2 | 
+e/f/g/e/ fa{g/}f{e/}d | !trill!a3/g/4a/4 bGge | A3/d/f3/d/ a2 | (3gbg f2!trill!e2 | ^d4d2 | z!wedge!^A(Bd)(^GB) | d4c/d/e/c/ | (=cB)c3b | 
+e3/=g/f3/a/ g2 | e3/a/ f3/a/ e3/a/ | A6 | A/B/c/d/ e/f/g/e/ f2 | ef d4 | g4fe | A6 | z!wedge!B(^de)(gb) | 
+ae{f/}ed{e/}dc | (3e^ga A2z2 | d6 | d/A/B/c/ d/e/f/g/ a2 | (3ea^g (3fed (3cBA | a2 !trill!=gf!trill!ed | ^G3/B/ e3/B/ ^g3/e/ | (A2A/)B/c/d/ e/f/g/a/ | 
+z!wedge!B(^de)(gb) | Aa=gfe^d | f/e/^d/e/ B4 | d4bd | z2 (3fag (3fed | !trill!a3/g/4a/4 b3/g/ f2 | (3eBe (3geg b2 | e/d/c/d/ B2 z2 | 
+f/e/g/e/ d2c2 | z!wedge!F(^AB)(df) | (3Ace =g3/e/ f3/d/ | d2 e/d/e/f/ d2 | B/^d/e/g/ b2c2 | Ggfedc | d6 | (3afd A2d2 | 
+^GddccB | zf{g/}fe{f/}ed | e2f/e/f/a/ g2 | (d2c2)d2 | (Bd)!wedge!g!wedge!ba2 | B2(3bag (3fed | c/B/d/B/ A2^G2 | (3Gge (3ceG F2 | 
+(3dcd (3b^ge (3bgd | cgfe {e/}dc/d/ | d2 !trill!e3/d/4e/4 f2 | d3/A/G3/A/ F2 | a2a2 g/f/e/d/ | !wedge!d!wedge!A!wedge!G!wedge!F!wedge!E!wedge!D | aAgG F2 | z!wedge!A(cd)(fa) | 
+E3/A/ c2!trill!B2 | d6 | g2 {a/}gf/e/ {g/}fe/d/ | d6 | (B/e/)!wedge!g/!wedge!e/ a2!trill!c2 | z d!trill!dc!trill!cB | e/d/c/d/ A4 | f=g e4 | 
+[V:2]
+d2B2G2 | z2 E2A2  | F2F2F2 | E2^D2E2 | A6 | d4d2 | z2 E2E2 | d6 | 
+d2c2d2 | E2A2A2 | dc/B/ A2!trill!^G2 | d2d2 z2 | f3ed2 | d6 | z2E2E2 | (3^DFB (3^DFB (3^DFB  | 
+z2 A4 | z2 (3 FAd(3 FAd | z2 A2A2 | (e^d) (ed) e2 | BdcBA^G | A2A2A2 | d2d2!trill!c2 | A6 | 
+^D2z2F2 | z2B2G2 | d6 | A2F2z2 | (dc) (dc)d2 | A6 | E4F2 | A3/B/2G3/A/ F2 |
+A6 | A6 | =c2A2F2 | dB A2^G2 | c2A2c2 | d2c2B2 | GzAzBz | (3DFA (3DFA (3DFA | 
+(3zEA (3zEA (3zEA | E2G2A2 | G2E2F2 | F2d2!trill!c2 | A/c/B/A/ {c}BA/^G/ A2 | ABcdBc | z2E2E2 | E2e2c2 | 
+A2e2f2 | GF G/F/G/A/ F2 | d4d2 | d3/e/ d2!trill!c2 | z2G2F2 | DF DA Fd | zABcdc | z2c2d2 | 
+E2z2E2 | z2c2d2 | d2c2d2 | A4A2 | F2E2D2 | (3cce (3dcB (3AB^G | E2^G2A2 | (3zEA (3zEA (3zEA | 
+z2^D2F2 | z2B2B2 | (3GBd (3GBd (3GBd | z2E2E2 | F2D2F2 | ^d4d2 | e2^d2e2 | Bgfedc | 
+G3 Bdg | A4A2 | F2A2F2 | zB zG zE | eB AG FE | d6 | d6 | (B2(3B)dc (3BA^G | 
+A6 | Fz Gz Az | d6 | f3/g/ e3/f/ d2 | (B2A/)^G/A/B/ c2 | E4E2 | (3zEA (3zEA (3zEA | B6 |
+B4G2 | F2f2^d2 | A6 | A4A2 | d6 | A6 | A4A2 | A3/d/ F3/A/ D3/F/ |
+E2z2z2 | F2A2A2 | (3DFB (3DFB (3DFB | A6 | e2z2z2 | f4 e^d | AcB^G A2 | f2a2z2 | 
+z2 B2B2 | A4!trill!^G2 | A6 | c4c2 | (3GBG (3FGA (3GFE | z2 A2A2 | d6 | dz dz dz | 
+A2A2z2 | d2d2z2 | D3/F/A3/F/ f2 | (3Bge d2 !trill!c2 | F4F2 | F4D^G | F4 E/F/G/E/ | z2F2F2 |
+B4B2 | A4A2 | A6 | z2A2A2 | (3DFA (3DFA (3DFA | e4dc | A6 | E4(BG) | 
+A2^G2A2 | z2E2E2 | d6 | d/F/G/A/ B/c/d/e/ f2 | A2z2z2 | A2!trill!gf!trill!ed | z2^G2B2 | z2E2D2 | 
+z2B2e2 | z2=c2c2 | z2 (3=GBe (3GBe| B,2^G2dB | (3FAd z2z2 | E2g3/c/ d2 | B2B2G2 | z2(3GBd (3GBd| 
+A3/G/ F2E2 | z2F2B2 | z2A2A2 | F2G2F2 | B2G2E2 | z2_B2B2 | d6 | F2D2F2 |
+z2D2D2 | A4F2 | z2^d2e2 | (F2E2)F2 | d4d2 | D4z2| c/B/d/B/ A2^G2 | z2E2D2 |  
+^G2B2d2 | BEAG F2 | A2A2A2 | A4A2 | DAFADA | !wedge!F,!wedge!A,!wedge!G,!wedge!F,!wedge!E,!wedge!E, | d2c2d2 | z2A2B2 | 
+E3/A/A2^G2 | d6 | d2e2A2 | d6 | B3/g/ f2!trill!e2 | D4D2 | z2(3FAd (3FAd | (3E=GB (3EGB (3EGB | 
+[V:3]
+F,2G,2A,2 | C,6 | D,2 F,A, D2 | G,2F,2E,2 | A,,C,E,A,A,,2 | B,2G,2F,2 | z2 C2C2 | z D,A,,F,,D,,2 | 
+F,F,E,E,D,D, | E,2C,2D,2 | D,2E,2E,,2 | G,,2G,2 z2 | z2 A,2D,2 |  D,2A,,2D,,2 | z2 G,2G,2 | ^D2D2D2 | 
+z2 G,2F,2 | D,2F,2D,2 | z2G,2G,2 | z2 E,F, G,2 | D,2E,2E,,2 | G,2A,2A,,2 | G,2A,2A,,2 | A,2 E,3/C,/ A,,2 | 
+F,2z2B,2 | z2G,2A,2 | G,2B,2G,2 | D,2D2z2 | z2 (D,E,)F,2 | A,2E,2A,,2 | z _B,A,G,F,E, | D,6 | 
+zA,E,C, A,,2 | F,2G,2F,2 | A,2z2B,2 | D,2E,2E,,2 | C,2A,,2z2 | F,2E,2D,2 | E,z F,z G,z | D,2D,2D,2 | 
+A,,2C,2A,,2 | G,2E,2F,2 | D,4D,2 | z2 A,,A,A,,A, | A,,2E,2A,2 | A,2A,,2A,2 | z2^G,2A,2 | (3A,,E,A, (3A,,E,A, (3A,,E,A, | 
+A,,2G,2F,2 | A,4D,2 | G,2B,2G,2 | G,2A,2A,,2 | A,4D2 | D,2D,2D,2 | A,,2z2z2 | z2A,2D,2 | 
+C2z2A,2 | z2A,2B,2 | F,2E,2D,2 | C,2A,,2D,2 | z2A,,2D,2 | A,,2D,2E,2 | A,2E,2A,,2 | C,z C,z C,z | 
+z2 A,2A,2 | z2A,2A,2 | G,,2G,2G,,2 | z2D,2C,2 | D,A,F,A,D,A, | zB,,^D,F,B,B,, | =G,G, F,F, E,E, | G,2A,2A,,2 | 
+B,4G,2 | G,4F,2 | D,2F,2D,2 | G,z E,z C,z | =G,B,A,G,F,E, | D,2 F,3/A,/ D2 | z D,F,A, D2 | ^G,4E,2 | 
+A,,2E,2A,2 | D,z E,z F,z | D,F,A,D D,2 | z2A,2D2 | A,2E,2A,,2 | B,2^G,2A,2 | C,z C,z D,z | G,2A,2G,2 | 
+G,4A,2 | (3D,F,A, (3D,F,A, (3B,,F,B, | A,,A,E,C, A,,2 | F,2C,2D,2 | D,2 F,A, D2 | A,2 E,C, A,,2 | F,2C,2D,2 | A,2F,2D,2 | 
+C,2z2z2 | D,2F,2F,2 | D,2D,2D,2 | A,E,C,E, A,,2 | G,2z2z2 | D,A,F,A,B,,B, | A,,2B,,2C,2 | D,2F,2z2 | 
+z2 (3E,^G,B, (3E,G,B, | D,2E,2E,,2 | zA,E,C,A,,2 | zA,,C,E,A,A,, | G,2A,2A,,2 | z2 C,2 D,3/F,/ | D,DA,F, D,2 | B,D B,D G,D | 
+C,2D,2z2 | F,2G,2z2 | F,2D,2zF, | G,2F,2A,,2 | z=CB,A,=G,F, | D,4E,2 | D,2F,2A,2 | z2 ^D,2D,2 | 
+=G,2^D,2E,2 | C,2D,2C,2 | A,2E,2A,,2 | z2C2D2 | D,2D,2D,2 | A,,A,C,A,A,,A, | A,A,,C,E,A,2 | G,4E,2 | 
+C2B,2A,2 | z2C2C2 | D,A,,F,,A,, D,,2 | F,2z2z2 | C2z2z2 | A,2 =G,F,E,D, | z2D,2D,2 | z2G,2F,2 | 
+G,6 | z2A,2A,2 | z2 E,2E,2 | ^G,EB,EG,E | D,2D2D,2 | C,A,E,A,D,A, | G,2z2z2 | G,2G,2G,2 | 
+G,2A,2A,,2 | D,6 | z2C,2D,2 | D2A,2D,2 | G,4F,2 | G,2G,,2z2 | D,2E,2E,,2 | z2A,2B,2 | 
+z2B,2B,2 | D,2C,2B,,2 | z2B,2E,2 | A,4D,2 | G,4F,2 | G,2G,,2z2 | D,2E,2E,,2 | z2A,2B,2 | 
+B,2^G,2E,2 | A,,4B,,2 | F,A,C,A,D,A, | F,2E,2D,2 | D,2D,2D,2 | !wedge!F,!wedge!A,!wedge!G,!wedge!F,!wedge!E,!wedge!D, | F,2E,2D,2 | F,6 | 
+z2E,2E,,2 | D,2A,2D2 | B,2C2D2 | D,2 A,,3/F,,/ D,,2 | G,2z2A,2 | B,2A,2G,2 | z2D,2D,2 | E,2E,2E,2 | 
