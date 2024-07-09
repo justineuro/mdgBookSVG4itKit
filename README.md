@@ -15,7 +15,7 @@ Wait for a **few** minutes, i.e., until one gets the bash prompt again.  The com
 ## For the Impatient
 To download and examine an example of a book (`mdgBookSVG4itv1.pdf`) that was generated in a similar manner, simply right-click (then "Save Link As ...") on the following image:
 
-[![Front Cover](./mdgBookSVG4itv1-tit.jpeg)](https://raw.githubusercontent.com/justineuro/mdgBookSVG4itKit/main/mdgBookSVG4itv1.pdf)
+[![Front Cover](https://raw.githubusercontent.com/justineuro/mdgBookSVG4itKit/main/mdgBookSVG4itv1-tit.jpeg)](https://raw.githubusercontent.com/justineuro/mdgBookSVG4itKit/main/mdgBookSVG4itv1.pdf)
 
 (**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVG4itv1_1-midi.zip](https://github.com/justineuro/mdgBookSVG4itKit/raw/main/mdgBookSVG4itv1_1-midi.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
 
@@ -28,10 +28,10 @@ To personalize one's generated book (in addition to the randomly generated minue
 
 Once the desired changes have been made to the files above, one can then re-compile the book by issuing, in the `res` subdirectoy, the last set of commmands in the HOWTO file:
 ```shell
-pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG4v1.tex
+pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG4itv1.tex
 bibtex mdgBookSVGv1.aux
-pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG4v1.tex
-pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG4v1.tex
+pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG4itv1.tex
+pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG4vit1.tex
 ```
 
 Also, line 33 of the `HOWTO` is set by default so that each new book created contains 50 minuets (for two flutes/violins and a cello).  One may wish to change this number, as desired, to some other counting number.  This has to be done **before** issuing the `bash HOWTO` command within the `mdgBookSVG4Kit-main` directory.
@@ -39,7 +39,8 @@ Also, line 33 of the `HOWTO` is set by default so that each new book created con
 ## Similar Kits on GitHub
 MDG Book kits similar to this may be found on related GitHub sites such as:
 
-- [mdgBookSVGKit](https://github.com/justineuro/mdgBookSVGKit) - MDG based on [*Musikalisches W&uuml;rferspiel, K. 516f*](http://imslp.org/wiki/Musikalische\s_W\%C3\%BCrfelspiel,\_K.516f\_%28Mozart,\_Wolfgang\_Amadeus\%29), attributed to Wolfgang Amadeus Mozart
+- [mdgBookSVGKit](https://github.com/justineuro/mdgBookSVGKit) - MDG based on [*Musikalisches W&uuml;rferspiel, K. 516f*](http://imslp.org/wiki/Musikalisches_W%C3%BCrfelspiel,_K.516f_%28Mozart,_Wolfgang_Amadeus%29), attributed to Wolfgang Amadeus Mozart
+- [mdgBookSVG3Kit](https://justineuro.github.io/mdgBookSVG3Kit) - One-Command Kit for Creating MDG (Kirnberger) Minuet-Trios Collection Book, the minuet-trios are generated based on the rules given in [*Der allezeit fertige Polonoisen- und Menuettencomponist* (*1757*)](https://imslp.org/wiki/Der_allezeit_fertige_Polonoisen-_und_Menuettencomponist_(Kirnberger%2C_Johann_Philipp)) 
 - [mdgBookSVG4Kit](https://github.com/justineuro/mdgBookSVG4Kit) - MDG based on [*Table pour composer des Minuets et des Trios &agrave; la infinie*](http://imslp.org/wiki/Table_pour_composer_des_Minuets_et_des_Trios_%C3%A0_la_infinie_(Stadler,_Maximilian)), similar to the MDG in this site but arranged for a haprsichord or pianoforte (clavier, clavichord).
 
 ## Related Sites
