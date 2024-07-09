@@ -17,7 +17,7 @@ To download and examine an example of a book (`mdgBookSVG4itv1.pdf`) that was ge
 
 [![Front Cover](./mdgBookSVG4itv1-tit.jpeg)](https://raw.githubusercontent.com/justineuro/mdgBookSVG4itKit/main/mdgBookSVG4itv1.pdf)
 
-(**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVG4itv1_1-midi.zip](https://github.com/justineuro/mdgBookSVG4Kit/raw/main/mdgBookSVG4itv1_1-midi.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
+(**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVG4itv1_1-midi.zip](https://github.com/justineuro/mdgBookSVG4itKit/raw/main/mdgBookSVG4itv1_1-midi.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
 
 ## Important Parameters
 To personalize one's generated book (in addition to the randomly generated minuets), one may want to change some of the default parameters/values in the following (all three files are initially found in the main directory but are eventually moved into the `res` folder): 
