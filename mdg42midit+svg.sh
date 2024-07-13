@@ -1,9 +1,9 @@
 #!/bin/bash
 #===================================================================================
 #
-#	 FILE:	haydn2midit+svg.sh (minuets)
+#	 FILE:	mdg42midit+svg.sh (minuets)
 #
-#	USAGE:	haydn2midit+svg.sh.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16 
+#	USAGE:	mdg42midit+svg.sh.sh n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14 n15 n16 
 #
 #		where n1-n16 are any of the 11 possible outcomes of a toss of
 #		two ordinary six-sided dice, e.g., n1-n16 are 16 integers, not necessarily 
