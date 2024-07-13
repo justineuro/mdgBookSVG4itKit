@@ -64,11 +64,10 @@
 # Create SVGs for the haydnGF-easy-minuet.pdf (table of measures); also corresponding *pdf_tex files using inkscape
 
 	abcm2ps -v -O= haydnGF-easy-minuet-it.abc
-	inkscape -D -z --file=haydnGF-easy-minuet-it001.svg --export-pdf=haydnGF-easy-minuet-it001.pdf --export-latex
-	inkscape -D -z --file=haydnGF-easy-minuet-it002.svg --export-pdf=haydnGF-easy-minuet-it002.pdf --export-latex
-	inkscape -D -z --file=haydnGF-easy-minuet-it003.svg --export-pdf=haydnGF-easy-minuet-it003.pdf --export-latex
-	inkscape -D -z --file=haydnGF-easy-minuet-it004.svg --export-pdf=haydnGF-easy-minuet-it004.pdf --export-latex
-
+	inkscape --export-filename=haydnGF-easy-minuet-it001.pdf --export-area-drawing --export-latex haydnGF-easy-minuet-it001.svg
+	inkscape --export-filename=haydnGF-easy-minuet-it002.pdf --export-area-drawing --export-latex haydnGF-easy-minuet-it002.svg
+	inkscape --export-filename=haydnGF-easy-minuet-it003.pdf --export-area-drawing --export-latex haydnGF-easy-minuet-it003.svg
+	inkscape --export-filename=haydnGF-easy-minuet-it004.pdf --export-area-drawing --export-latex haydnGF-easy-minuet-it004.svg
 
 ##	add escapes for "_"'s (12x); and \url{---}for URL; change to scriptsize
 
