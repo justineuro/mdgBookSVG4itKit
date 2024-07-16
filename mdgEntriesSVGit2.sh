@@ -1,17 +1,17 @@
 #!/bin/bash
 #===================================================================================
 #
-#	 FILE:	mdgEntriesSVG2.sh 
+#	 FILE:	mdgEntriesSVGit2.sh 
 #
-#	USAGE:	mdgEntriesSVG2.sh [/path/to/listOfSVGFiles]
+#	USAGE:	mdgEntriesSVGit2.sh [/path/to/listOfSVGFiles]
 #
 # DESCRIPTION:	Used for generating needed LaTeX codes for inclusion of SVGs into LaTeX
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	1.0.0
+#     VERSION:	1.0.1
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	2017.09.08 15:58:16 +08
-#    REVISION:	
+#    REVISION:	2024/07/16 11:43:31
 #==================================================================================
 
 #----------------------------------------------------------------------------------
