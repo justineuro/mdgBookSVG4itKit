@@ -33,7 +33,7 @@ K:D
 %
 %%MIDI program 1 73
 %%MIDI program 2 73
-%%MIDI program 3 32
+%%MIDI program 3 42
 %
 [V:1]
 afegce | z !wedge!E(^GA)(ce) | d2d2d2 | e3/B/A3/B/ G2 | A6 | gdbg a2 | (_BA) A3a | d6 | 
@@ -79,7 +79,7 @@ A2^G2A2 | z2E2E2 | d6 | d/F/G/A/ B/c/d/e/ f2 | A2z2z2 | A2!trill!gf!trill!ed | z
 z2B2e2 | z2=c2c2 | z2 (3=GBe (3GBe| B,2^G2dB | (3FAd z2z2 | E2g3/c/ d2 | B2B2G2 | z2(3GBd (3GBd| 
 A3/G/ F2E2 | z2F2B2 | z2A2A2 | F2G2F2 | B2G2E2 | z2_B2B2 | d6 | F2D2F2 |
 z2D2D2 | A4F2 | z2^d2e2 | (F2E2)F2 | d4d2 | D4z2| c/B/d/B/ A2^G2 | z2E2D2 |  
-^G2B2d2 | BEAG F2 | A2A2A2 | A4A2 | DAFADA | !wedge!F,!wedge!A,!wedge!G,!wedge!F,!wedge!E,!wedge!E, | d2c2d2 | z2A2B2 | 
+^G2B2d2 | BEAG F2 | A2A2A2 | A4A2 | DAFADA | !wedge!d!wedge!A!wedge!G!wedge!F!wedge!E!wedge!D | d2c2d2 | z2A2B2 | 
 E3/A/A2^G2 | d6 | d2e2A2 | d6 | B3/g/ f2!trill!e2 | D4D2 | z2(3FAd (3FAd | (3E=GB (3EGB (3EGB | 
 [V:3]
 F,2G,2A,2 | C,6 | D,2 F,A, D2 | G,2F,2E,2 | A,,C,E,A,A,,2 | B,2G,2F,2 | z2 C2C2 | z D,A,,F,,D,,2 | 
