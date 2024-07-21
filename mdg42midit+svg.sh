@@ -70,7 +70,7 @@ notesGv=( "d2B2G2" "z2 E2A2 " "F2F2F2" "E2^D2E2" "A6" "d4d2" "z2 E2E2" "d6" " d2
 "A2^G2A2" "z2E2E2" "d6" "d/F/G/A/ B/c/d/e/ f2" "A2z2z2" "A2!trill!gf!trill!ed" "z2^G2B2" "z2E2D2" " z2B2e2" "z2=c2c2" "z2 (3=GBe (3GBe" 
 "B,2^G2dB" "(3FAd z2z2" "E2g3/c/ d2" "B2B2G2" "z2(3GBd (3GBd" "A3/G/ F2E2" "z2F2B2" "z2A2A2" "F2G2F2" "B2G2E2" "z2_B2B2" "d6" "F2D2F2" 
 "z2D2D2" "A4F2" "z2^d2e2" "(F2E2)F2" "d4d2" "D4z2" "c/B/d/B/ A2^G2" "z2E2D2" 
-"^G2B2d2" "BEAG F2" "A2A2A2" "A4A2" "DAFADA" "!wedge!F,!wedge!A,!wedge!G,!wedge!F,!wedge!E,!wedge!E," "d2c2d2" "z2A2B2" 
+"^G2B2d2" "BEAG F2" "A2A2A2" "A4A2" "DAFADA" "!wedge!d!wedge!A!wedge!G!wedge!F!wedge!E!wedge!D" "d2c2d2" "z2A2B2" 
 "E3/A/A2^G2" "d6" "d2e2A2" "d6" "B3/g/ f2!trill!e2" "D4D2" "z2(3FAd (3FAd" "(3E=GB (3EGB (3EGB" )
 
 #----------------------------------------------------------------------------------
