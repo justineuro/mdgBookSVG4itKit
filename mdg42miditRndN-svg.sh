@@ -13,28 +13,16 @@
 #		(arranged for a trio of instruments)
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	1.0.2
+#     VERSION:	1.0.3
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
-#     CREATED:	2024/07/03 15:26:10
-#    REVISION:	
+#     CREATED:	2024/06/24 19:48:24
+#    REVISION:	2025/05/13 10:45:04
 #==================================================================================
 
 #----------------------------------------------------------------------------------
-# define the function genSM() that randomly chooses an integer from 2 to 12, inclusive
+# define the function genS() that randomly chooses an integer from 1 to 6, inclusive
 #----------------------------------------------------------------------------------
-genSM() { # RANDOM randomly generates an integer from 0 to 32767
-	rnd=32768
-	until [ $rnd -lt 32758 ]
-	do
-		rnd=$[RANDOM]
-		if [ $rnd -lt 32758 ]; then echo $[rnd%11+2]; fi
-	done
-}
-
-#----------------------------------------------------------------------------------
-# define the function genST() that randomly chooses an integer from 1 to 6, inclusive
-#----------------------------------------------------------------------------------
-genST() { # RANDOM randomly generates an integer from 0 to 32767
+genS() { # RANDOM randomly generates an integer from 0 to 32767
 	rnd=32768
 	until [ $rnd -lt 32766 ]
 	do
@@ -42,8 +30,6 @@ genST() { # RANDOM randomly generates an integer from 0 to 32767
 		if [ $rnd -lt 32766 ]; then echo $[rnd%6+1]; fi
 	done
 }
-
-
 
 #----------------------------------------------------------------------------------
 # declare the variables "diceS" as an array
@@ -61,7 +47,7 @@ while [ $i -le $1 ]; do
 # the minuet
 #----------------------------------------------------------------------------------
 	for j in {0..15}; do
-		diceS[$j]=`genSM`
+		diceS[$j]=$((`genS` + `genS`))
 	done
 
 #----------------------------------------------------------------------------------
