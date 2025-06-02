@@ -4,7 +4,7 @@
 
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) minuets (arranged for three instruments), generated based on the rules given in [*GIOCO FILARMONICO O SIA MANIERA FACILE PER COMPORRE UN INFINITO NUMERO DI MINUETTI E TRIO, ANCHE SENZA SAPERE IL CONTRAPUNTO da eseguirsi per due violini e basso, o per due flauti e basso)*](http://imslp.org/wiki/Table_pour_composer_des_Minuets_et_des_Trios_%C3%A0_la_infinie_(Stadler,_Maximilian)).
 
-To creat a book, simply [download](https://github.com/justineuro/mdgBookSVG4itKit/archive/main.zip) (or clone: `git clone https://github.com/justineuro/mdgBookSVG4itKit.git`) this project to one's computer, unzip the downloaded archive, and at the command line inside the main folder (`mdgBookSVG4itKit-main` directory) issue the following command (pre-requisites: `bash`, `abcmidi`, `abcm2ps`, `Ghostscript`, `Inkscape`, `Maxima`, and `LaTeX`):
+To create a book, simply [download](https://github.com/justineuro/mdgBookSVG4itKit/archive/main.zip) (or clone: `git clone https://github.com/justineuro/mdgBookSVG4itKit.git`) this project to one's computer, unzip the downloaded archive, and at the command line inside the main folder (`mdgBookSVG4itKit-main` directory) issue the following command (pre-requisites: `bash`, `abcmidi`, `abcm2ps`, `Ghostscript`, `Inkscape`, `Maxima`, and `LaTeX`):
 
 ```shell
 bash HOWTO
